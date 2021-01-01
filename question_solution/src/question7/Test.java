@@ -1,4 +1,4 @@
-package quwstion7;
+package question7;
 import java.util.concurrent.*;
 
 class Printer implements Callable<String> {

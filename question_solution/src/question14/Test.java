@@ -39,8 +39,8 @@ public class Test {
     public static void main(String[] args) {
         Set<Student> students = new TreeSet<>(Student::compareByName);
         students.add(new Student("James", 20));
-        students.add(new Student("James2", 20));
-        students.add(new Student("James3", 22));
+        students.add(new Student("James", 20));
+        students.add(new Student("Jamesssss", 22));
 
         System.out.println(students.size());
     }
